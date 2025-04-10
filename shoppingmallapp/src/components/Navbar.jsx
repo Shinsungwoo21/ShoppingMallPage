@@ -41,6 +41,7 @@ const Navbar = ({ setAuthenticate, authenticate }) => {
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/800px-H%26M-Logo.svg.png" 
           onClick={() => navigate("/")}
           style={{ cursor: 'pointer'}}
+          alt="logoimg"
         />
       </div>
       {showMenu && (
